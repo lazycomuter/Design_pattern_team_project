@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- icon -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
+    <title>쇼핑몰</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header data-include-path="header.html"></header>
+
+    <!-- landing Page -->
+    <section id="home" class="home">
+      <div class="landing">
+        <div class="landing-image-box">
+          <img src="./assets/shoes2.png" alt="shoes-image" />
+        </div>
+        <div class="landing-desc-box">
+          <div class="sec-top">
+            <h2 class="sec-tit">베스트 상품</h2>
+            <p class="sec-desc">야무짐 ㄹㅇ</p>
+          </div>
+          <a href="detail.html?12" class="landing-detail-link">더보기</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- goods -->
+    <main id="goods" class="goods-page">
+      <div class="sec-top">
+        <h1 class="sec-tit">상품</h1>
+        <p class="sec-desc goods-desc">원하는 종류를 고르세요</p>
+      </div>
+      <div class="goods-sort">
+        <select name="type-choice" class="goods-item type-item">
+          <option selected>모든 상품</option>
+          <option data-key="type" data-value="cloth" class="choice-sort select-black">
+            맨투맨
+          </option>
+          <option data-key="type" data-value="pants" class="choice-sort select-blue">바지</option>
+          <option data-key="type" data-value="shoes" class="choice-sort select-brown">
+            신발
+          </option>
+          <option data-key="type" data-value="cap" class="choice-sort select-green">
+            모자
+        </select>
+      </div>
+      <ul class="goods-container"></ul>
+      <ol class="goods-pagination"></ol>
+    </main>
+
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/loadItem.js"></script>
+  </body>
+</html>
