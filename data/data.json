@@ -1,0 +1,194 @@
+{
+  "shoesBox": [
+    {
+      "id": 1,
+      "productName": "옷 1",
+      "price": 105000,
+      "type": "cloth",
+      "image": "./assets/cloth1.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    },
+    {
+      "id": 2,
+      "productName": "옷 2",
+      "price": 135000,
+      "type": "cloth",
+      "image": "./assets/cloth2.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    },
+    {
+      "id": 3,
+      "productName": "옷 3",
+      "price": 120000,
+      "type": "cloth",
+      "image": "./assets/cloth3.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    },
+    {
+      "id": 4,
+      "productName": "옷 4",
+      "price": 110000,
+      "type": "cloth",
+      "image": "./assets/cloth4.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    },
+    {
+      "id": 5,
+      "productName": "옷 5",
+      "price": 156000,
+      "type": "cloth",
+      "image": "./assets/cloth5.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    },
+    {
+      "id": 6,
+      "productName": "바지 1",
+      "price": 190000,
+      "type": "pants",
+      "image": "./assets/pants1.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    },
+    {
+      "id": 7,
+      "productName": "바지 2",
+      "price": 160000,
+      "type": "pants",
+      "image": "./assets/pants2.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    },
+    {
+      "id": 8,
+      "productName": "바지 3",
+      "price": 185000,
+      "type": "pants",
+      "image": "./assets/pants3.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    },
+    {
+      "id": 9,
+      "productName": "바지 4",
+      "price": 190000,
+      "type": "pants",
+      "image": "./assets/pants4.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    },
+    {
+      "id": 10,
+      "productName": "바지 5",
+      "price": 215000,
+      "type": "pants",
+      "image": "./assets/pants5.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    },
+    {
+      "id": 11,
+      "productName": "신발 1",
+      "price": 265000,
+      "type": "shoes",
+      "image": "./assets/shoes1.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    },
+    {
+      "id": 12,
+      "productName": "신발 2",
+      "price": 138000,
+      "type": "shoes",
+      "image": "./assets/shoes2.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    },
+    {
+      "id": 13,
+      "productName": "신발 3",
+      "price": 183000,
+      "type": "shoes",
+      "image": "./assets/shoes3.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    },
+    {
+      "id": 14,
+      "productName": "신발 4",
+      "price": 175000,
+      "type": "shoes",
+      "image": "./assets/shoes4.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    },
+    {
+      "id": 15,
+      "productName": "신발 5",
+      "price": 194000,
+      "type": "shoes",
+      "image": "./assets/shoes5.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    },
+    {
+      "id": 16,
+      "productName": "모자 1",
+      "price": 240000,
+      "type": "cap",
+      "image": "./assets/cap1.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    },
+    {
+      "id": 17,
+      "productName": "모자 2",
+      "price": 153000,
+      "type": "cap",
+      "image": "./assets/cap2.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    },
+    {
+      "id": 18,
+      "productName": "모자 3",
+      "price": 199000,
+      "type": "cap",
+      "image": "./assets/cap3.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    },
+    {
+      "id": 19,
+      "productName": "모자 4",
+      "price": 200000,
+      "type": "cap",
+      "image": "./assets/cap4.png",
+      "wish": false,
+      "cart": false,
+      "order": 0
+    }
+  ]
+}
