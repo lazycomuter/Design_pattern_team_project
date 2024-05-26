@@ -29,30 +29,45 @@ function paintDetail(detailGoods) {
   }
 }
 
+function createActionHandler(detailGoods, type) {
+  if (type === "wish") {
+    return function () {
+      if (detailGoods.wish) {
+        alert("위시리스트에 있는 상품입니다.");
+      } else {
+        detailGoods.wish = true;
+        alert("위시리스트에 담았습니다.");
+        saveWishGoods.push(detailGoods);
+        saveWish(saveWishGoods);
+      }
+    };
+  } else if (type === "cart") {
+    return function () {
+      if (detailGoods.cart) {
+        alert("장바구니에 있는 상품입니다.");
+      } else {
+        detailGoods.cart = true;
+        detailGoods.order += 1;
+        alert("장바구니에 담았습니다.");
+        saveCartGoods.push(detailGoods);
+        saveCart(saveCartGoods);
+        totalCartCount();
+      }
+    };
+  }
+}
+
 function detailSelectGoods(detailGoods) {
   detialBtnBox &&
     detialBtnBox.addEventListener("click", (e) => {
       const targetBtn = e.target;
+
       if (targetBtn === detialWishBtn) {
-        if (detailGoods.wish) {
-          alert("위시리스트에 있는 상품입니다.");
-        } else {
-          detailGoods.wish = true;
-          alert("위시리스트에 담았습니다.");
-          saveWishGoods.push(detailGoods);
-          saveWish(saveWishGoods);
-        }
+        const handleWishAction = createActionHandler(detailGoods, "wish");
+        handleWishAction();
       } else if (targetBtn === detialCartBtn) {
-        if (detailGoods.cart) {
-          alert("장바구니에 있는 상품입니다.");
-        } else {
-          detailGoods.cart = true;
-          detailGoods.order += 1;
-          alert("장바구니에 담았습니다.");
-          saveCartGoods.push(detailGoods);
-          saveCart(saveCartGoods);
-          totalCartCount();
-        }
+        const handleCartAction = createActionHandler(detailGoods, "cart");
+        handleCartAction();
       }
     });
 }
